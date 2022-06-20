@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Lobster";
+  src: url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap);
+}
+
+.skills_intro{
+  Display:flex;
+  flex-direction:column;
+  justify-content: stretch;
+  padding-left: 20px;
+  padding-top:20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.skills_intro h3{
+  font-size: 1em;
+}
+
+.validated{
+  color: #03755b;
+}
+
+.on_going{
+  color: #c48c23;
+}
+
+.soon{
+  color:#951788;
+}
+
+.paragraphes{
+  display:flex;
+  flex-direction: column;
+}
+
+.layus{
+  margin-bottom: 30px;
+}
+
+.skills_intro{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.skills_intro h2{
+  font-family: "Lobster";
+  font-size: 1.5em;
+}
+
+.skills_intro h3{
+  font-family: "Dancing Script";
+  font-size: 1.4em;
+}
+
+.explications{
+  margin-top: 20px;
+  font-size: 1em;
+}

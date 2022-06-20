@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Lobster";
+  src: url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.boutons_travaux{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  font-size: 1.5em;
+  margin-bottom: 3em;
+  font-family: "Dancing Script";
+  font-weight: 800;
+}
+
+.text_intro{
+  margin-bottom: 2em;
+}
+
+.travail{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+}
