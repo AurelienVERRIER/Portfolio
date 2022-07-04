@@ -32,7 +32,7 @@ body{
   display: flex;
   flex-direction: row;
 }
-
+  
 .intro{
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ header nav a{
   color:black;
   display: flex;
   flex-direction: column;
-  
+  width: 100px;
 }
 
 .mobile_menu{
@@ -264,5 +264,12 @@ main p{
     border-radius: 43%;
   }
   
+  .current{
+    box-shadow: 1px 4px 4px #1c1a19;
+  }
+
+  .nav-link{
+    margin-left: 10px;
+  }
 
 }

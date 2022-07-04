@@ -17,13 +17,13 @@
   Display:flex;
   flex-direction:column;
   justify-content: stretch;
-  padding-left: 20px;
-  padding-top:20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-top:10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
   height: 100%;
   flex-wrap: wrap;
-  align-items: space-around;
+  align-items: space-between;
 }
 
 .skills_intro ul{
@@ -32,7 +32,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
- 
+  margin-bottom: 20px;
+}
+
+.bootcamp{
+  margin-bottom: 20px;
 }
 
 .skills_intro li{
@@ -52,7 +56,7 @@
   /* color: #03755b; */
   box-shadow: 1px 4px 20px #03755b;
   border-radius: 7px;
-  margin: 15px;
+  margin: 10px;
   width: 100px;
   /* background-color: rgba(76, 76, 76, 0); */
 }
@@ -61,7 +65,7 @@
   color: black;
   box-shadow: 1px 4px 20px #56881d;
   border-radius: 7px;
-  margin: 15px;
+  margin: 10px;
   width: 100px;
 }
 
@@ -69,9 +73,15 @@
   color:black;
   box-shadow: 1px 4px 20px #dabc16;
   border-radius: 7px;
-  margin: 15px;
+  margin: 10px;
   width: 100px;
 }
+
+
+body{
+  height: 100vh;
+}
+
 
 .paragraphes{
   display:flex;
@@ -79,7 +89,7 @@
 }
 
 .layus{
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .skills_intro{

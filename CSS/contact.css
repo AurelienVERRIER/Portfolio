@@ -18,11 +18,14 @@
   flex-direction: column;
 }
 
-.boutons_contact{
+
+.boutons_contact button{
   font-size: 1.5em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   font-family: "Roboto";
   font-weight: 300;
+  border-radius: 7px;
+  box-shadow: 1px 4px 40px #0a2324;
   margin: 20px 20px 20px 20px;
 }
 
@@ -38,7 +41,6 @@
   align-items: center;
   justify-content: center;
 }
-
 
 
 .presentation {

@@ -20,12 +20,22 @@ main{
 
 .boutons_travaux{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-bottom: 40px;
 }
 
 .boutons_travaux button{
   font-size: 1.5em;
-  margin-bottom: 3em;
+  margin-bottom: 0.5em;
+  font-family: "Roboto";
+  font-weight: 300;
+  border-radius: 7px;
+  box-shadow: 1px 4px 40px #0a2324;
+}
+
+.boutons_codewars button{
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
   font-family: "Roboto";
   font-weight: 300;
   border-radius: 7px;
@@ -33,7 +43,7 @@ main{
 }
 
 .text_intro{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .travail{
@@ -41,6 +51,15 @@ main{
   flex-direction: column;
   margin: 10px 10px 10px 10px;
 }
+
+.boutons_codewars button{
+  margin-top: 20px;
+}
+
+.text_intro_codewars{
+  width:60%
+}
+
 
 
 
